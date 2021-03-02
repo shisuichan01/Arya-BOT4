@@ -5,11 +5,11 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['promote','admin','^', '↑'].map(v => v + ' @user')
 handler.tags = ['admin']
 handler.command = /^(promote|admin|\^|↑)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
+handler.owner = maaf perintah ini hanya bisa di gunakan di grup false
+handler.mods = maaf perintah ini hanya bisa di gunakan di grup false
+handler.premium = maaf perintah ini hanya bisa di gunakan di grup false
 handler.group = true
-handler.private = false
+handler.private = maaf perintah ini hanya bisa di gunakan di grup false
 
 handler.admin = true
 handler.botAdmin = true
